@@ -1,8 +1,12 @@
 .prayer_container {
   margin: 2em;
   width: 27vw;
-  height: fit-content;
+  height: 19vw;
+  transition: margin .5s ease-in-out;
+}
 
+.prayer_container:hover {
+  margin-top: .1em;
 }
 
 .prayer_text{
@@ -13,6 +17,14 @@
 }
 
 .prayer_text{
-  font-weight: 700;
+  font-weight: 400;
   font-size: 1.5vw;
 }
+
+/* 
+.tag {
+  margin-right: 2px;
+  transition: margin 0.2s ease-in-out;
+  background-color: gray;
+} */
+

@@ -23,14 +23,21 @@ export default function App() {
   }, []);
 
   return (
-    <div className="main_prayer_container">
+    <div>
+
+      <h1 className='text-5xl text-white text-center p-12'>Tewahdo Prayer Wall</h1>
+      <SubmitPrayer />
+      <div className="main_prayer_container">
+      
       {prayers.map((prayers) => (
         <div>
           <Prayer prayer={prayers.prayer} />
         </div>
       ))}
 
-      {/* <SubmitPrayer /> */}
+
     </div>
+      </div>
+
   );
 }
