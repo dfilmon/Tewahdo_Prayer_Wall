@@ -25,7 +25,8 @@ export default function App() {
   return (
     <div>
 
-      <h1 className='text-5xl text-white text-center p-12'>Tewahdo Prayer Wall</h1>
+    <h3 className='text-5xl text-white text-center mt-12'>Tewahdo</h3>
+      <h1 className='titleText text-5xl text-white text-center pb-12 mb-12'>Prayer Wall</h1>
       <SubmitPrayer />
       <div className="main_prayer_container">
       
